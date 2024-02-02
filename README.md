@@ -17,7 +17,7 @@ Otherwise, error will happen.
 
 Differences between ESM, and CommonJS
   
-  1. ESM runs in strict mode. So, there is no need to state "use stric".
+  1. ESM runs in strict mode. So, there is no need to state "use strict".
   2. ESM is static which means we can not import within control flows. It should be stated on the top of the file. This really helps by optimizing the dependecy graph.
   3. In ESM this returns undefined while in CommonJs refers to exports object.
      
